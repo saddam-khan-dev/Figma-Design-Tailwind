@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         'custom-green': 'rgba(32, 245, 115, 1)',  // Define the custom color
       },
+      // adding custom google font manrope 
+      fontFamily: {
+        'manrope': ['Manrope', 'sans-serif'],  // Add custom font
+      },
     },
   },
   plugins: [],

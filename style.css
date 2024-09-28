@@ -6,4 +6,25 @@
     .flex-center{
         @apply justify-center items-center;
     }
+    .arrow{
+        @apply h-14 w-14 flex justify-center items-center ;
+    }
+    .wrapper{
+        @apply flex flex-col relative h-56 w-[364] p-4 my-8 rounded-xl bg-white drop-shadow-lg;
+    }
+    .dp{
+        @apply w-12 h-12;
+    }
+    .title{
+        @apply absolute left-20 font-bold text-lg text-black;
+    }
+    .position{
+        @apply absolute left-20 top-10 font-bold text-xs text-slate-400;
+    }
+    .rating{
+        @apply h-5 w-32 mt-4;
+    }
+    .paragraph{
+        @apply flex h-24 w-80 my-2 font-medium text-sm text-slate-500;
+    }
 }

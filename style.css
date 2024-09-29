@@ -27,4 +27,22 @@
     .paragraph{
         @apply flex h-24 w-80 my-2 font-medium text-sm text-slate-500;
     }
+    .card{
+        @apply flex h-[68px] w-[300px] bg-white rounded-2xl py-2 px-4 gap-3;
+    }
+    .icn{
+        @apply flex relative h-[52px] w-[52px];
+    }
+    .title1{
+        @apply flex absolute top-3 left-20 text-xs font-bold text-slate-500;
+    }
+    .title2{
+        @apply flex absolute bottom-2 left-20  text-lg font-bold text-black;
+    }
+    .lable{
+        @apply text-base font-medium text-black;
+    }
+    .box{
+        @apply text-sm font-medium text-slate-200 mb-6 h-[42px] w-[297px] rounded-lg p-2 bg-slate-100;
+    }
 }

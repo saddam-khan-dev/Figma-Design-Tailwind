@@ -28,6 +28,9 @@ module.exports = {
       colors: {
         'custom-green': 'rgba(32, 245, 115, 1)',  // Define the custom green color
       },
+      colors: {
+        'light-green': 'rgba(236, 254, 243, 1)',  // Define the reched us section green color
+      },
       // adding custom google font manrope 
       fontFamily: {
         'manrope': ['Manrope', 'sans-serif'],  // Add custom font
